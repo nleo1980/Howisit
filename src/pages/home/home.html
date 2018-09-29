@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      How is it?
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <button ion-button (click)="answerQuestion()">Answer</button>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <p>
+        Tell us feeling about your work
+      </p>
+    </ion-card-header>
+    <ion-list>
+      <ion-item *ngFor="let option of Q1Opts; let optionIndex = index" [ngClass]="{'selected': this.answers[1]==option.optionNo}">
+        <ion-icon name={{option.icon}} item-start></ion-icon>
+        {{option.optionText}}
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Tell us feeling about your team
+    </ion-card-header>
+    <ion-list>
+      <ion-item *ngFor="let option of Q2Opts; let optionIndex = index" [ngClass]="{'selected': this.answers[2]==option.optionNo}">
+        <ion-icon name={{option.icon}} item-start></ion-icon>
+        {{option.optionText}}
+      </ion-item>
+    </ion-list>
+  </ion-card>
+
+</ion-content>

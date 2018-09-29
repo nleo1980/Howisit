@@ -1,0 +1,8 @@
+{
+  "name": "howisit",
+  "app_id": "40bb3890",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

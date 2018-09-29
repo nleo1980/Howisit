@@ -1,0 +1,62 @@
+[
+    {
+      "questionNo": "1",
+      "optionNo": "1",
+      "optionText": "Not happy at all",
+      "icon": "thunderstorm"
+    },
+    {
+      "questionNo": "1",
+      "optionNo": "2",
+      "optionText": "Not so happy",
+      "icon": "rainy"
+    },
+    {
+      "questionNo": "1",
+      "optionNo": 3,
+      "optionText": "Neutral",
+      "icon": "cloud"
+    },
+    {
+      "questionNo": "1",
+      "optionNo": 4,
+      "optionText": "Happy",
+      "icon": "partly-sunny"
+    },
+    {
+      "questionNo": "1",
+      "optionNo": 5,
+      "optionText": "Very happy",
+      "icon": "sunny"
+    },
+    {
+      "questionNo": "2",
+      "optionNo": "1",
+      "optionText": "Not happy at all",
+      "icon": "thunderstorm"
+    },
+    {
+      "questionNo": "2",
+      "optionNo": "2",
+      "optionText": "Not so happy",
+      "icon": "rainy"
+    },
+    {
+      "questionNo": "2",
+      "optionNo": 3,
+      "optionText": "Neutral",
+      "icon": "cloud"
+    },
+    {
+      "questionNo": "2",
+      "optionNo": 4,
+      "optionText": "Happy",
+      "icon": "partly-sunny"
+    },
+    {
+      "questionNo": "2",
+      "optionNo": 5,
+      "optionText": "Very happy",
+      "icon": "sunny"
+    }
+  ]
